@@ -131,22 +131,9 @@ h3, h4, h2 {
 }
 
 
-
-@media only screen and (min-width: 320px) and (max-width: 767px) { .centered {
-	display: inline;
-	margin-left: 5%;
-	margin-right: none;
-	}
-
-	h1, h2, h3, h4, p {
-		padding-left: 10px;
-		padding-right: 10px;
-	}	
-
-}
-
-@media only screen and(min-width: 320px) and (max-width: 767px) and (orientation:landscape) {
-	html {
+	@media only screen and(min-width: 320px) and (max-width: 767px) and (orientation:landscape) {
+	
+		html {
     transform: rotate(-90deg);
     transform-origin: left top;
     width: 100vh;
@@ -159,35 +146,7 @@ h3, h4, h2 {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 767px){
-	 html,body {
-		 width: 100%;
-		 margin-left: 0px;
-		 margin-right: 0px;
-		 overflow-x: hidden; 
-		 background-color: #202020;
-	 }
-	
-	.images {
-		width: 300px;
-		height: 300px;
-		margin-right: none;
-		margin-left: 1%;
-	}
 
-	h1, h2, h3, h4, p {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-
-	.font-big {
-		font-size: 2.5em;
-	}
-
-	.bio {
-		font-size: 1.1em
-	}
-}
 
 @media only screen 
 and (min-width: 320px) and (max-width: 768px) 
@@ -227,6 +186,12 @@ and (orientation: portrait)
 		margin-left:1%;
 	}
 
+	.centered {
+		display: inline;
+		margin-left: 5%;
+		margin-right: none;
+		}
+
 	.myLinks1 {
 	
 		margin-bottom: 5%;
@@ -235,6 +200,11 @@ and (orientation: portrait)
 	.myLinks2 {
 		margin-left: 15%;
 	}
+
+	.parallax {
+		margin-bottom: -12px
+	}
+
 }
 
 
