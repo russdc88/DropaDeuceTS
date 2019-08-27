@@ -144,16 +144,18 @@ h3, h4, h2 {
 
 }
 
-@media only screen and (max-width: 900px) { .centered {
-	display: inline;
-	margin-left: 5%;
-	margin-right: none;
-	}
+@media only screen and(min-width: 320px) and (max-width: 767px) and (orientation:landscape) {
+	html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+		left: 0;
+		right: 0;
 
-	h1, h2, h3, h4, p {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
+  }
 }
 
 @media only screen and (max-width: 414px){
