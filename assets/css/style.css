@@ -140,10 +140,20 @@ h3, h4, h2 {
 	h1, h2, h3, h4, p {
 		padding-left: 10px;
 		padding-right: 10px;
+	}	
+
+}
+
+@media only screen and (max-width: 900px) { .centered {
+	display: inline;
+	margin-left: 5%;
+	margin-right: none;
 	}
 
-	
-
+	h1, h2, h3, h4, p {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }
 
 @media only screen and (max-width: 414px){
