@@ -133,6 +133,11 @@ h3, h4, h2 {
 	margin-right: none;
 	}
 
+	h1, h2, h3, h4, p {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
 }
 
 @media only screen and (max-width: 414px){
@@ -148,6 +153,11 @@ h3, h4, h2 {
 		height: 300px;
 		margin-right: none;
 		margin-left: 1%;
+	}
+
+	h1, h2, h3, h4, p {
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 	.font-big {
@@ -168,6 +178,11 @@ and (orientation: portrait)
 		margin-left: 0px;
 		margin-right: 0px;
 		overflow-x: hidden; 
+		background-color: #202020
+	}
+	h1, h2, h3, h4, p {
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	.images {
 		width: 300px;
@@ -190,7 +205,7 @@ and (orientation: portrait)
 	}
 
 	.myLinks1 {
-		margin-left:30%;
+	
 		margin-bottom: 5%;
 	}
 
